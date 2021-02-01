@@ -41,7 +41,7 @@ dependencies {
     implementation ("androidx.constraintlayout:constraintlayout:2.0.4")
     implementation (project(":lib-base"))
 
-//    implementation (project(":module-tool"))
+    implementation (project(":module-tool"))
 
     implementation ("com.google.dagger:hilt-android:2.28-alpha")
     kapt ("com.google.dagger:hilt-android-compiler:2.28-alpha")

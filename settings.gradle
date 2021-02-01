@@ -1,0 +1,8 @@
+include ':module-tool'// projectRoot/settings.gradle.kts
+includeBuild ("MyPlugin")
+include (":lib-base")
+
+include (":app")
+
+rootProject.name = "HlitDemo"
+
